@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import CoupleReviews from "../components/CoupleReviews";
 
 const HomePage = () => {
     const navigate = useNavigate();
@@ -621,6 +622,9 @@ const HomePage = () => {
                     </div>
                 </div>
             </section>
+
+            {/* ===== COUPLE REVIEWS ===== */}
+            <CoupleReviews />
 
             {/* ===== APP DOWNLOAD SECTION ===== */}
             <section className="w-full py-16 md:py-24 bg-gradient-to-br from-pink-500 to-purple-600 text-white">
